@@ -132,7 +132,7 @@ $(function(){
 		},
 		
 		clearCompleted: function() {
-			_.invoke(Todos.done(), 'destroy');
+			_.invoke(Todos.done(), 'destroy');         //(collection, methodName)
 			return false;
 		},
 		
